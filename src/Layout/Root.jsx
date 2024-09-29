@@ -3,7 +3,7 @@ import { Navbar } from "../shared/Navbar";
 
 const Root = () => {
   return (
-    <div className="font-inter container mx-auto">
+    <div className="font-inter min-h-screen">
       <Navbar />
       <Outlet />
     </div>
