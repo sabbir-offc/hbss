@@ -7,24 +7,24 @@ const data = [
     des: "Hello, welcome to Hogla Betka Secondary School (HBSS)",
   },
   {
-    img: "/public/hbss.jpg",
+    img: "/public/hbss2.jpg",
     title: "Golden Canopy",
-    des: "Bask in the warmth and beauty of the golden leaves against a clear blue sky. A perfect spot for a peaceful retreat and reflection.",
+    des: "Photo click: Sajid",
   },
   {
-    img: "/public/hbss.jpg",
+    img: "/public/hbss3.jpg",
     title: "Urban Exploration",
-    des: "Venture into the hidden corners of the city and uncover the beauty of forgotten urban landscapes. A thrilling escape into the depths of urban architecture.",
+    des: "Photo click: Sajid",
   },
   {
-    img: "/public/hbss.jpg",
+    img: "/public/hbss4.jpg",
     title: "Industrial Mystery",
-    des: "Explore the enigmatic charm of industrial structures. A perfect setting for those with a sense of adventure and an eye for urban beauty.",
+    des: "Photo click: Sajid",
   },
   {
-    img: "/public/hbss.jpg",
+    img: "/public/hbss5.jpg",
     title: "Blossom Bliss",
-    des: "Revel in the vibrant colors and delicate petals of a blossoming field. An ideal retreat for those seeking a burst of natural beauty and serenity.",
+    des: "Photo click: Sajid",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Carousel() {
   }, [currentSlider]);
 
   return (
-    <div className="flex flex-row justify-between">
+    <div className="flex flex-row justify-between my-5">
       <div className="h-72 w-full transform overflow-hidden rounded-lg before:bg-black/50 sm:h-96 md:h-[540px] lg:gap-10">
         {data.map((slide, index) => {
           const { img, title, des } = slide;
